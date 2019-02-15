@@ -1,0 +1,111 @@
+a {
+    display: none;
+}
+p {
+    display: inline;
+}
+img {
+    height: 70%;
+    width: 70%;
+    border: 1px solid none;
+    border-radius: 2px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    align-self: center;
+    background-color: #1ECEFD;
+}
+.textwrapper h3 {
+    margin: 0;
+}
+.textwrapper {
+    background-color: #FFF;
+    padding-bottom: 20px;
+}
+.firstsection {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgwrapper {
+    display: flex;
+    border-radius: 2px;
+    flex-direction: column;
+    background-color: #1ECEFD;
+}
+.textwrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid none;
+    border-radius: 2px;
+}
+.email {
+    color: grey;
+}
+body {
+    background-color: #eee;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+.modul {
+    width: 50%;
+    height: 95%;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modul h3 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+form input {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20px;
+}
+form textarea {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+button {
+    background-color: #505355;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px;
+    border: none;
+    align-self: center;
+    margin-top: 20px;
+}
+button:hover {
+    transition: 0.5s;
+    background-color: #5BECD8;
+}
+edit section {
+    background-color: #FFF;
+}
+edit p {
+    color: #1ECEFD;
+}
