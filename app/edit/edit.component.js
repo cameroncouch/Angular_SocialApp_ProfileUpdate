@@ -17,8 +17,8 @@ const edit = {
     controller: ["ProfileService", function(ProfileService) {
         const vm = this;
         vm.$onInit = function(){
-            vm.userProfile = ProfileService.getUserName();
-          }
+            vm.userObject = ProfileService.getUserProfile();
+            };
         vm.notPopulated = function(userObject) {
             ProfileService.setUserProfile(userObject);
             console.log(userObject);

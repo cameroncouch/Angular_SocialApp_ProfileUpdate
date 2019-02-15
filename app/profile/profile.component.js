@@ -17,10 +17,6 @@ const profile = {
     `,
     controller:["ProfileService", "$location", function(ProfileService, $location) {
         const vm = this;
-        vm.$onInit = function() {
-            console.log("blah");
-            $location.path("/profile");
-        }
         vm.userObject = ProfileService.getUserProfile();
         vm.updateProfile = function(userObject) {
             ProfileService.editProfile(userObject);
