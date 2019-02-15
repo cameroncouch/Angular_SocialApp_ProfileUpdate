@@ -8,5 +8,9 @@ angular.module("ProfileApp").config(["$routeProvider", function($routeProvider) 
     .when("/edit", 
     {
         template:"<edit></edit>"
+    })
+    .otherwise("/profile", 
+    {
+        template:"<profile></profile>"
     });
 }]);
